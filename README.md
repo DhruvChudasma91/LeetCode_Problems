@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/DhruvChudasma91/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/DhruvChudasma91/DSA/tree/master/0682-baseball-game) |
 ## Simulation
 |  |
@@ -62,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/DhruvChudasma91/DSA/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
