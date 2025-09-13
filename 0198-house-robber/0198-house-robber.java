@@ -1,17 +1,23 @@
 class Solution {
 
-    public static int findMaximum(int ind, int[] dp, int[] nums) {
+    public static int findMaximum(int n, int[] dp, int[] nums) {
 
-        if(ind == 0) return nums[ind];
+        dp[0] = nums[0];
 
-        if(ind < 0) return 0;
+        for(int i = 1; i < n; i++) {
 
-        if(dp[ind] != -1) return dp[ind];
+            int pick = nums[i];
 
-        int pick = nums[ind] + findMaximum(ind - 2, dp, nums);
-        int notPick = findMaximum(ind - 1, dp, nums);
+            if(i > 1) {
+                pick += dp[i-2];
+            }
 
-        return dp[ind] = Math.max(pick, notPick);
+            int notPick = dp[i - 1];
+
+            dp[i] = Math.max(pick, notPick);
+        }
+
+        return dp[n-1];
     }
 
     public int rob(int[] nums) {
@@ -19,6 +25,6 @@ class Solution {
         int[] dp = new int[nums.length];
         Arrays.fill(dp, -1);
 
-        return findMaximum(nums.length - 1, dp, nums);
+        return findMaximum(nums.length, dp, nums);
     }
 }
