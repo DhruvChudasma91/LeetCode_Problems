@@ -5,18 +5,18 @@ class Solution {
         if(n == dest) return true;
 
         visited[n] = true;
-        boolean flag = false;
 
         for(int it : adj.get(n)) {
 
             if(visited[it] == false) {
-                flag = isPath(it, dest, adj, visited);
+                
+                if(isPath(it, dest, adj, visited)) {
+                    return true;
+                }
             }
-
-            if(flag == true) return true;
         }
 
-        return flag;
+        return false;
     }
 
     public boolean validPath(int n, int[][] edges, int source, int destination) {
@@ -35,8 +35,7 @@ class Solution {
             adj.get(v).add(u);
         }
 
-        boolean ans = isPath(source, destination, adj, visited);
+        return isPath(source, destination, adj, visited);
         
-        return ans;
     }
 }
