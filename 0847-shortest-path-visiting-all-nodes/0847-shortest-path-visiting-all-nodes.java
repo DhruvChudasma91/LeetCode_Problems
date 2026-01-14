@@ -1,47 +1,41 @@
+import java.util.*;
+
 class Solution {
     public int shortestPathLength(int[][] graph) {
-        int numNodes = graph.length;
-        int allVisitedMask = (1 << numNodes) - 1;
-        Queue<int[]> q = new LinkedList<>();
+        int n = graph.length;
+        int allVisited = (1 << n) - 1; // bitmask when all nodes are visited
 
-        // Initialize visited array
-        boolean[][] visited = new boolean[allVisitedMask + 1][numNodes];
-        for (boolean[] row : visited) {
-            Arrays.fill(row, false);
+        Queue<int[]> queue = new LinkedList<>();
+        boolean[][] seen = new boolean[n][1 << n];
+
+        // Initialize BFS from every node
+        for (int i = 0; i < n; i++) {
+            int mask = 1 << i;
+            queue.offer(new int[]{i, mask, 0}); // {currentNode, visitedMask, steps}
+            seen[i][mask] = true;
         }
 
-        // Start from each node and add it to the queue as a starting point
-        for (int node = 0; node < numNodes; ++node) {
-            int initialMask = (1 << node);
-            q.add(new int[] { node, initialMask, 1 });
-            visited[initialMask][node] = true;
-        }
+        while (!queue.isEmpty()) {
+            int[] curr = queue.poll();
+            int node = curr[0];
+            int mask = curr[1];
+            int steps = curr[2];
 
-        while (!q.isEmpty()) {
-            int[] current = q.poll();
+            // If all nodes visited
+            if (mask == allVisited) {
+                return steps;
+            }
 
-            int currentNode = current[0];
-            int currentMask = current[1];
-            int currentLength = current[2];
-
-            // Check if all nodes have been visited
-            if (currentMask == allVisitedMask)
-                return currentLength - 1;
-
-            // Explore the neighbors of the current node
-            for (int i = 0; i < graph[currentNode].length; ++i) {
-                int neighbor = graph[currentNode][i];
-                int newMask = currentMask | (1 << neighbor);
-
-                // Check if this state has been visited before
-                if (visited[newMask][neighbor])
-                    continue;
-
-                // Add the neighbor to the queue with updated state
-                q.add(new int[] { neighbor, newMask, currentLength + 1 });
-                visited[newMask][neighbor] = true;
+            // Visit all neighbors
+            for (int neighbor : graph[node]) {
+                int nextMask = mask | (1 << neighbor);
+                if (!seen[neighbor][nextMask]) {
+                    seen[neighbor][nextMask] = true;
+                    queue.offer(new int[]{neighbor, nextMask, steps + 1});
+                }
             }
         }
-        return -1; // No valid path found
+
+        return -1; // just a fallback, graph is connected so this won't happen
     }
 }
