@@ -2,14 +2,14 @@ class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> ans = new ArrayList<>();
 
-        Arrays.sort(nums);
+        for(int i = 0; i < nums.length; i++) {
 
-        for(int i = 0; i < nums.length - 1; i++) {
-
-            if(nums[i] == nums[i+1]) {
-                ans.add(nums[i]);
-                i++;
+            int ind = Math.abs(nums[i]);
+            if(nums[ind - 1] < 0) {
+                ans.add(ind);
             }
+
+            nums[ind - 1] *= -1;
         }
 
         return ans;
