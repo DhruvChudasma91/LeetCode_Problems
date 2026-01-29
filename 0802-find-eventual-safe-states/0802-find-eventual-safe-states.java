@@ -1,45 +1,54 @@
 class Solution {
-    public List<Integer> eventualSafeNodes(int[][] graph) {
-        int V = graph.length;
-        ArrayList<ArrayList<Integer>> revGraph = new ArrayList<>();
-        int[] indegree = new int[V];
 
-        for(int i = 0; i < V; i++) {
-            revGraph.add(new ArrayList<>());
+    public boolean dfs(int node, List<List<Integer>> adj, boolean[] visited, boolean[] pathVisited) {
+
+        visited[node] = true;
+        pathVisited[node] = true;
+
+        for(int it : adj.get(node)) {
+
+            if(visited[it] == false) {
+                if(dfs(it, adj, visited, pathVisited)) {
+                    return true;
+                } 
+            } else if(pathVisited[it]) {
+                return true;
+            }
         }
 
-        for(int i = 0; i < V; i++) {
-            for(int j = 0; j < graph[i].length; j++) {
-                revGraph.get(graph[i][j]).add(i);
-                indegree[i]++;
+        pathVisited[node] = false;
+
+        return false;
+    }
+
+    public List<Integer> eventualSafeNodes(int[][] graph) {
+        
+        int n = graph.length;
+        List<List<Integer>> adj = new ArrayList<>();
+
+        for(int i = 0; i < n; i++) {
+            List<Integer> list = new ArrayList<>();
+            for(int j= 0; j < graph[i].length; j++) {
+                list.add(graph[i][j]);
+            }
+            adj.add(list);
+        }
+
+        boolean[] visited = new boolean[n];
+        boolean[] pathVisited = new boolean[n];
+        for(int i = 0; i < n; i++) {
+            if(visited[i] == false) {
+                dfs(i, adj, visited, pathVisited);
             }
         }
 
         List<Integer> safeNodes = new ArrayList<>();
-        Queue<Integer> queue = new LinkedList<>();
-        for(int i = 0; i < V; i++) {
-            if(indegree[i] == 0) {
-                queue.add(i);
+        for(int i = 0; i < n; i++) {
+            if(pathVisited[i] == false) {
+                safeNodes.add(i);
             }
         }
-
-        while(!queue.isEmpty()) {
-
-            int node = queue.remove();
-            safeNodes.add(node);
-
-            for(int it : revGraph.get(node)) {
-                indegree[it]--;
-
-                if(indegree[it] == 0) {
-                    queue.add(it);
-                }
-            }
-        }
-
-        Collections.sort(safeNodes);
 
         return safeNodes;
-         
     }
 }
