@@ -70,10 +70,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/DhruvChudasma91/DSA/tree/master/0682-baseball-game) |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
+| [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0682-baseball-game](https://github.com/DhruvChudasma91/DSA/tree/master/0682-baseball-game) |
+| [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DhruvChudasma91/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
+| [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -142,4 +145,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 <!---LeetCode Topics End-->
