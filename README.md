@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0115-distinct-subsequences](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0115-distinct-subsequences/) | Hard |
 | [0198-house-robber](https://github.com/DhruvChudasma91/DSA/tree/master/0198-house-robber) |
+| [0338-counting-bits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0338-counting-bits/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [1013-fibonacci-number](https://github.com/DhruvChudasma91/DSA/tree/master/1013-fibonacci-number) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
+| [0338-counting-bits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0338-counting-bits/) | Easy |
 | [0342-power-of-four](https://github.com/DhruvChudasma91/DSA/tree/master/0342-power-of-four) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DhruvChudasma91/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Memoization
