@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/DhruvChudasma91/DSA/tree/master/0020-valid-parentheses) |
 | [0516-longest-palindromic-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0583-delete-operation-for-two-strings/) | Medium |
+| [1092-shortest-common-supersequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [1013-fibonacci-number](https://github.com/DhruvChudasma91/DSA/tree/master/1013-fibonacci-number) |
+| [1092-shortest-common-supersequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
