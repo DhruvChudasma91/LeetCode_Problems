@@ -4,30 +4,33 @@ class Solution {
         int n1 = s.length();
         int n2 = t.length();
 
-        int[][] dp = new int[n1+1][n2+1];
+        int[] dp = new int[n2+1];
 
-        for(int j = 0; j <= n1; j++) {
-            dp[j][0] = 1;
-        }
+        dp[0] = 1;
 
         for(int i = 1; i <= n1; i++) {
+
+            int[] curr = new int[n2+1];
+            curr[0] = 1;
 
             for(int j = 1; j <= n2; j++) {
 
                 if(s.charAt(i - 1) == t.charAt(j - 1)) {
 
-                    int notPick = dp[i-1][j];
-                    int pick = dp[i-1][j-1];
+                    int notPick = dp[j];
+                    int pick = dp[j-1];
 
-                    dp[i][j] = notPick + pick;
+                    curr[j] = notPick + pick;
                 } else {
 
-                    dp[i][j] = dp[i-1][j];
+                    curr[j] = dp[j];
                 }
             }
+
+            dp = curr.clone();
         }
 
-        return dp[n1][n2];
+        return dp[n2];
     }
 
     /*
