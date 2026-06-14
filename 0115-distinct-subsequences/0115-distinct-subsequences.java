@@ -5,13 +5,32 @@ class Solution {
         int n2 = t.length();
 
         int[][] dp = new int[n1+1][n2+1];
-        for(int[] d : dp) {
-            Arrays.fill(d, -1);
+
+        for(int j = 0; j <= n1; j++) {
+            dp[j][0] = 1;
         }
-    
-        return findDS(n1 - 1, n2 - 1, s, t, dp);
+
+        for(int i = 1; i <= n1; i++) {
+
+            for(int j = 1; j <= n2; j++) {
+
+                if(s.charAt(i - 1) == t.charAt(j - 1)) {
+
+                    int notPick = dp[i-1][j];
+                    int pick = dp[i-1][j-1];
+
+                    dp[i][j] = notPick + pick;
+                } else {
+
+                    dp[i][j] = dp[i-1][j];
+                }
+            }
+        }
+
+        return dp[n1][n2];
     }
 
+    /*
     public int findDS(int ind1, int ind2, String s, String t, int[][] dp) {
 
         if(ind2 < 0){
@@ -33,4 +52,5 @@ class Solution {
 
         return dp[ind1][ind2] = findDS(ind1 - 1, ind2, s, t, dp);
     }
+    */
 }
