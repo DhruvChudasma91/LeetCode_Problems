@@ -1,27 +1,14 @@
 class Solution {
     public int[] countBits(int n) {
-
-        int[] ans = new int[n+1];
-
-        int[] dp = new int[n+1];
-        Arrays.fill(dp, -1);
         
-        for(int i = n; i>=0; i--) {
+        int[] dp = new int[n+1];
+        dp[0] = 0;
 
-            ans[i] = countOnes(i, dp);
+        for(int i = 1; i <= n; i++) {
+
+            dp[i] = dp[i >> 1] + (i & 1);
         }
 
-        return ans;
-    }
-
-    public int countOnes(int n, int[] dp) {
-
-        if(n == 0) {
-            return 0;
-        }
-
-        if(dp[n] != -1) return dp[n];
-
-        return dp[n] = n % 2 + countOnes(n / 2, dp);
+        return dp;
     }
 }
