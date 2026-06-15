@@ -4,13 +4,37 @@ class Solution {
         int n = word1.length();
         int m = word2.length();
 
-        int[][] dp = new int[n][m];
-        for(int[] d : dp){
-            Arrays.fill(d, -1);
+        int[][] dp = new int[n+1][m+1];
+
+        for(int i = 0; i <= n; i++) {
+            dp[i][0] = i;
         }
 
-        return findMinDistance(n-1, m-1, word1, word2, dp); 
+        for(int j = 0;  j <= m; j++) {
+            dp[0][j] = j;
+        }
+
+        for(int i = 1; i <= n; i++) {
+
+            for(int j = 1; j <= m; j++) {
+
+                if(word1.charAt(i-1) == word2.charAt(j-1)){
+                    dp[i][j] = dp[i-1][j-1];
+                } else {
+
+                    int insert = dp[i][j-1];
+                    int delete = dp[i-1][j];
+                    int replace = dp[i-1][j-1];
+
+                    dp[i][j] = 1 + Math.min(insert, Math.min(delete, replace));
+                }
+            }
+        }
+
+        return dp[n][m];
     }
+
+    /*
 
     public int findMinDistance(int ind1, int ind2, String word1, String word2, int[][] dp){
 
@@ -30,4 +54,6 @@ class Solution {
 
         return dp[ind1][ind2] = Math.min(insert, Math.min(delete, replace));
     }
+
+    */
 }
