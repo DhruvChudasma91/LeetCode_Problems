@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
+| [2016-maximum-difference-between-increasing-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
