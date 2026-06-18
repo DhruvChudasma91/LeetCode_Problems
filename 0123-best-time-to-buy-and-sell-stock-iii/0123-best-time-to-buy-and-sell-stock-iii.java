@@ -3,37 +3,25 @@ class Solution {
     public int maxProfit(int[] prices) {
         
         int n = prices.length;
+        
+        int firstBuy = Integer.MIN_VALUE;
+        int firstSell = 0;
+        int secondBuy = Integer.MIN_VALUE;
+        int secondSell = 0;
 
-        int[][] ahead = new int[2][3];
+        for(int price : prices) {
+           
+           firstBuy = Math.max(firstBuy, -price);
+           
+           firstSell = Math.max(firstSell, firstBuy + price);
 
+           secondBuy = Math.max(secondBuy, firstSell - price);
 
-        for(int ind = n - 1; ind>= 0; ind--) {
-
-            int[][] curr = new int[2][3];
-
-            for(int buy = 0; buy <= 1; buy++) {
-                for(int cap = 1; cap <= 2; cap++) {
-
-                    if(buy == 1) {
-
-                        int skip = ahead[1][cap];
-                        int take = -prices[ind] + ahead[0][cap]; 
-
-                        curr[buy][cap] = Math.max(skip, take);
-                    } else {
-
-                        int skip = ahead[0][cap];
-                        int take = prices[ind] + ahead[1][cap - 1]; 
-
-                        curr[buy][cap] = Math.max(skip, take);
-                    }
-                }
-            }
-
-            ahead = curr;
+           secondSell = Math.max(secondSell, secondBuy + price);
+            
         }
 
-        return ahead[1][2];  
+        return secondSell;  
     }
 
     /*
