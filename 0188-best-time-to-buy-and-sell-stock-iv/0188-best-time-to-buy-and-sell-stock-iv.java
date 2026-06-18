@@ -3,37 +3,25 @@ class Solution {
         
         int n = prices.length;
 
-        int[][] ahead = new int[2][k+1];
+        if(n == 0 || k == 0) return 0;
 
-        for(int ind = n-1; ind>=0; ind--) {
+        int[] buy = new int[k+1];
+        int[] sell = new int[k+1];
 
-            int[][] curr = new int[2][k+1];
-
-            for(int buy = 0; buy <= 1; buy++) {
-                for(int cap = 1; cap <= k; cap++) {
-
-                    if(buy == 1) {
-
-                        int skip = ahead[1][cap];
-                        int take = -prices[ind] + ahead[0][cap];
-
-                        curr[buy][cap] = Math.max(skip, take);
-
-                    } else {
-
-                        int skip = ahead[0][cap];
-                        int take = prices[ind] + ahead[1][cap - 1];
-
-                        curr[buy][cap] = Math.max(skip, take);
-                    }
-
-                }
-            }
-
-            ahead = curr;
+        for(int i = 0; i <= k; i++) {
+            buy[i] = Integer.MIN_VALUE;
         }
 
-        return ahead[1][k];
+        for(int price : prices) {
+
+            for(int t = 1; t <= k; t++) {
+
+                buy[t] = Math.max(buy[t], sell[t-1] - price);
+                sell[t] = Math.max(sell[t], buy[t] + price);
+            }
+        }
+
+        return sell[k];
     }
 
     /*
