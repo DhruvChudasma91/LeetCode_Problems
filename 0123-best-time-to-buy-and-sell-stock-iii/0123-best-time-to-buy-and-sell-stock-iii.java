@@ -3,18 +3,37 @@ class Solution {
         
         int n = prices.length;
 
-        int[][][] dp = new int[n][2][3];
-        for(int[][] d : dp){
+        int[][][] dp = new int[n+1][2][3];
 
-            for(int[] it : d) {
-                Arrays.fill(it, -1);
+
+        for(int ind = n - 1; ind>= 0; ind--) {
+
+            for(int buy = 0; buy <= 1; buy++) {
+
+                for(int cap = 1; cap <= 2; cap++) {
+
+                    if(buy == 1) {
+
+                        int skip = dp[ind + 1][1][cap];
+                        int take = -prices[ind] + dp[ind + 1][0][cap]; 
+
+                        dp[ind][buy][cap] = Math.max(skip, take);
+                    } else {
+
+                        int skip = dp[ind + 1][0][cap];
+                        int take = prices[ind] + dp[ind + 1][1][cap - 1]; 
+
+                        dp[ind][buy][cap] = Math.max(skip, take);
+                    }
+                }
             }
-           
         }
 
-        return helpar(0, 1, 2, n, prices, dp);
+        return dp[0][1][2];
+        
     }
 
+    /*
     public int helpar(int ind, int buy, int total, int n, int[] prices, int[][][] dp){
 
         if(ind == n || total == 0){
@@ -46,4 +65,5 @@ class Solution {
 
         return profit;
     }
+    */
 }
