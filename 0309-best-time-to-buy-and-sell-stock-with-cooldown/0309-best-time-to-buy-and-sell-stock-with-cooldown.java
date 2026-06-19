@@ -3,30 +3,36 @@ class Solution {
         
         int n = prices.length;
 
-        int[][] dp = new int[n+2][2];
+        int[] ahead1 = new int[2];
+        int[] ahead2 = new int[2];
 
-        for(int ind = n-1; ind >= 0; ind--) {  //n = 5, n + 1 = 6 // n - 2 + 2 => 5 - 1 + 2 => 6
+        for(int ind = n-1; ind >= 0; ind--) {  
+
+            int[] curr = new int[2];
 
             for(int buy = 0; buy <= 1; buy++) {
 
                 if(buy == 1) {
 
-                    int skip = dp[ind + 1][1];
-                    int take = -prices[ind] + dp[ind + 1][0];
+                    int skip = ahead1[1];
+                    int take = -prices[ind] + ahead1[0];
 
-                    dp[ind][buy] = Math.max(skip, take);
+                    curr[buy] = Math.max(skip, take);
 
                 } else {
 
-                    int skip = dp[ind + 1][0];
-                    int take = prices[ind] + dp[ind + 2][1];
+                    int skip = ahead1[0];
+                    int take = prices[ind] + ahead2[1];
 
-                    dp[ind][buy] = Math.max(skip, take);
+                    curr[buy] = Math.max(skip, take);
                 }
             }
+
+            ahead2 = ahead1;
+            ahead1 = curr;
         }
 
-        return dp[0][1];
+        return ahead1[1];
     }
 
     /*
