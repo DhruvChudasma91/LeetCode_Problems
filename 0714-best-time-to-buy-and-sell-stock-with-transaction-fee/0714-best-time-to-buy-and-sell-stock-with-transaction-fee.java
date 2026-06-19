@@ -3,34 +3,19 @@ class Solution {
 
         int n = prices.length;
 
-        int[] ahead = new int[2];
+        int aheadBuy = 0;
+        int aheadSell = 0;
 
         for(int ind = n-1; ind >= 0; ind--) {
 
-            int[] curr = new int[2];
+            int currBuy = Math.max(aheadBuy, -prices[ind] + aheadSell);
+            int currSell = Math.max(aheadSell, prices[ind] - fee + aheadBuy);
 
-            for(int buy = 0; buy <= 1; buy++) {
-
-                if(buy == 1) {
-
-                    int skip = ahead[1];
-                    int take = -prices[ind] + ahead[0];
-
-                    curr[buy] = Math.max(skip, take);
-                } else {
-                    
-                    int skip = ahead[0];
-                    int take = prices[ind] - fee + ahead[1];
-
-                    curr[buy] = Math.max(skip, take);
-
-                }
-            }
-
-            ahead = curr.clone();
+            aheadBuy = currBuy;
+            aheadSell = currSell;
         }
 
-        return ahead[1];
+        return aheadBuy;
         
     }
 
