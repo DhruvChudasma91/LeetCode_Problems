@@ -3,7 +3,26 @@ class Solution {
         
         int n = prices.length;
 
-        int[] ahead1 = new int[2];
+        int ahead1Buy = 0;
+        int ahead1Sell = 0;
+
+        int ahead2Buy = 0;  //Not require ahead2Sell because it never use.
+
+        for(int ind = n - 1; ind>= 0; ind--) {
+
+            int currBuy = Math.max(ahead1Buy, -prices[ind] + ahead1Sell);
+
+            int currSell = Math.max(ahead1Sell, prices[ind] + ahead2Buy);
+
+            ahead2Buy = ahead1Buy;
+            ahead1Buy = currBuy;
+            ahead1Sell = currSell;
+        }
+
+        return ahead1Buy;
+
+        /*
+        int[] ahead1 = new int[2];  
         int[] ahead2 = new int[2];
 
         for(int ind = n-1; ind >= 0; ind--) {  
@@ -33,6 +52,8 @@ class Solution {
         }
 
         return ahead1[1];
+
+        */
     }
 
     /*
