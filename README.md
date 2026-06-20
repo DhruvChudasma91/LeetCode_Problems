@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
