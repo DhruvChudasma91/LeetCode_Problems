@@ -3,22 +3,20 @@ class Solution {
         
         int n = prices.length;
 
-        long[][][] dp = new long[n + 1][3][k + 1];
+        long[][] ahead = new long[3][k + 1];
 
         for(int i = 0; i<=k; i++) {
-            dp[n][0][i] = 0;
-            dp[n][1][i] = -(long)1e15;
-            dp[n][2][i] = -(long)1e15;
-        }
-
-        for(int i = 0; i <= n; i++) {
-
-            dp[i][0][0] = 0;
-            dp[i][1][0] = -(long)1e15;
-            dp[i][2][0] = -(long)1e15;
+            ahead[0][i] = 0;
+            ahead[1][i] = -(long)1e15;
+            ahead[2][i] = -(long)1e15;
         }
 
         for(int ind = n - 1; ind >= 0; ind--) {
+
+            long[][] curr = new long[3][k + 1];
+            curr[0][0] = 0;
+            curr[1][0] = -(long)1e15;
+            curr[2][0] = -(long)1e15;
 
             for(int state = 0; state <= 2; state++) {
 
@@ -26,34 +24,33 @@ class Solution {
 
                     if(state == 0) {
 
-                        long skip = dp[ind + 1][0][cap];
-                        long normalBuy = -prices[ind] + dp[ind + 1][1][cap];
-                        long shortSell = prices[ind] + dp[ind + 1][2][cap];
+                        long skip = ahead[0][cap];
+                        long normalBuy = -prices[ind] + ahead[1][cap];
+                        long shortSell = prices[ind] + ahead[2][cap];
 
-                        dp[ind][state][cap] = Math.max(skip, Math.max(normalBuy, shortSell));
+                        curr[state][cap] = Math.max(skip, Math.max(normalBuy, shortSell));
 
                     } else if(state == 1) {
 
-                        long skip = dp[ind + 1][1][cap];
-                        long normalSell = prices[ind] + dp[ind + 1][0][cap - 1];
+                        long skip = ahead[1][cap];
+                        long normalSell = prices[ind] + ahead[0][cap - 1];
 
-                        dp[ind][state][cap] = Math.max(skip, normalSell);
+                        curr[state][cap] = Math.max(skip, normalSell);
 
                     } else {
 
-                        long skip = dp[ind + 1][2][cap];
-                        long shortBuy = -prices[ind] + dp[ind + 1][0][cap - 1];
+                        long skip = ahead[2][cap];
+                        long shortBuy = -prices[ind] + ahead[0][cap - 1];
 
-                        dp[ind][state][cap] = Math.max(skip, shortBuy);
+                        curr[state][cap] = Math.max(skip, shortBuy);
                     }
                 }
             }
+
+            ahead = curr;
         }
 
-
-        return dp[0][0][k];
-        
-
+        return ahead[0][k];  
     }
 
     /*
