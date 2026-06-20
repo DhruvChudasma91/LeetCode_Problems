@@ -3,6 +3,48 @@ class Solution {
         
         int n = prices.length;
 
+        long[] free = new long[k + 1];
+        long[] longPos = new long[k + 1];
+        long[] shortPos = new long[k + 1];
+
+        Arrays.fill(longPos, -(long)1e15);
+        Arrays.fill(shortPos, -(long)1e15);
+
+        for(int price : prices) {
+
+            long[] nextFree = free.clone();
+            long[] nextLong = longPos.clone();
+            long[] nextShort = shortPos.clone();
+
+            for(int t = 0; t < k; t++) {
+
+                // Open Long Position
+                nextLong[t] = Math.max(nextLong[t], free[t] - price);
+
+                // Open Short Position
+                nextShort[t] = Math.max(nextShort[t], free[t] + price);
+
+                // Close Long Position
+                nextFree[t + 1] = Math.max(nextFree[t + 1], longPos[t] + price);
+
+                // Close Short Position
+                nextFree[t + 1] = Math.max(nextFree[t + 1], shortPos[t] - price);
+            }
+
+            free = nextFree;
+            longPos = nextLong;
+            shortPos = nextShort;
+        }
+
+        long ans = 0;
+
+        for(int t = 0; t <= k; t++) {
+            ans = Math.max(ans, free[t]);
+        }
+
+        return ans;
+
+        /*
         long[][] ahead = new long[3][k + 1];
 
         for(int i = 0; i<=k; i++) {
@@ -50,7 +92,9 @@ class Solution {
             ahead = curr;
         }
 
-        return ahead[0][k];  
+        return ahead[0][k]; 
+
+        */
     }
 
     /*
