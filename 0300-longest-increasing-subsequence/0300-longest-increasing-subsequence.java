@@ -2,27 +2,35 @@ class Solution {
     public int lengthOfLIS(int[] nums) {
         
         int n = nums.length;
+        ArrayList<Integer> temp = new ArrayList<>();
+        temp.add(nums[0]);
 
-        Integer[][] dp = new Integer[n][n+1];
+        for(int i = 1; i < n; i++) {
 
-        return helpar(0, -1, n, nums, dp);
-    }
+            int last = temp.get(temp.size() - 1);
 
-    public int helpar(int ind, int prevInd, int n, int[] nums, Integer[][] dp) {
+            if(last < nums[i]) {
+                temp.add(nums[i]);
+            } else {
 
-        if(ind >= n) {
-            return 0;
+                int s = 0;
+                int e = temp.size() - 1;
+
+                while(s < e) {
+
+                    int mid = s + (e - s) / 2;
+                    if(temp.get(mid) < nums[i]) {
+                        s = mid + 1;
+                    } else {
+                        e = mid;
+                    }
+                }
+
+                temp.set(s, nums[i]);
+            }
         }
 
-        if(dp[ind][prevInd + 1] != null) return dp[ind][prevInd + 1];
+        return temp.size();
 
-        int notTake = helpar(ind + 1, prevInd, n, nums, dp);
-
-        int take = -(int)1e9;
-        if(prevInd == -1 || nums[ind] > nums[prevInd]) {
-            take = 1 + helpar(ind + 1, ind, n, nums, dp);
-        }
-
-        return dp[ind][prevInd + 1] = Math.max(notTake, take);
     }
 }
