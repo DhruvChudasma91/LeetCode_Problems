@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/DhruvChudasma91/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 | Problem Name | Difficulty |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
+| [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0115-distinct-subsequences/) | Hard |
 | [0516-longest-palindromic-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0583-delete-operation-for-two-strings/) | Medium |
+| [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
@@ -87,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
+| [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
@@ -115,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [1013-fibonacci-number](https://github.com/DhruvChudasma91/DSA/tree/master/1013-fibonacci-number) |
+| [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
@@ -152,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
+| [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
