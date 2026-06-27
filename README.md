@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1043-partition-array-for-maximum-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
