@@ -3,27 +3,17 @@ class Solution {
         
         int n = cost.length;
 
-        int[] dp = new int[n+1];
-        Arrays.fill(dp, -1);
+        int[] dp = new int[n];
+        
+        dp[0] = cost[0];
+        dp[1] = cost[1];
 
-        return helpar(n, cost, dp);
-    }
+        for(int i = 2; i < n; i++) {
 
-    public int helpar(int ind, int[] cost, int[] dp) {
-
-        if(ind == 0) {
-            return 0;
+            dp[i] = cost[i] + Math.min(dp[i-1], dp[i-2]);
         }
 
-        if(dp[ind] != -1) return dp[ind];
-
-        int jumpOne = cost[ind - 1] + helpar(ind - 1, cost, dp);
-        int jumpTwo = 0;
-
-        if(ind > 1) {
-            jumpTwo = cost[ind - 2] + helpar(ind - 2, cost, dp);
-        }
-
-        return dp[ind] = Math.min(jumpOne, jumpTwo);
+        return Math.min(dp[n - 1], dp[n - 2]);
     }
+
 }
