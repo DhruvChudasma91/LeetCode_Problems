@@ -1,7 +1,6 @@
-// Tabulation
+// Space Optimised
 public class Solution {
     public int deleteAndEarn(int[] nums) {
-        // Define the maximum value for array size
         final int MAX = 10005;
         int[] sums = new int[MAX];
         
@@ -10,17 +9,18 @@ public class Solution {
             sums[num] += num;
         }
         
-        // Initialize the DP array
-        int[] dp = new int[MAX];
-        dp[1] = sums[1];
-        dp[2] = Math.max(sums[1], sums[2]);
+        // Initialize variables for space optimization
+        int prev1 = sums[1]; // dp[i - 2]
+        int prev2 = Math.max(sums[1], sums[2]); // dp[i - 1]
         
-        // Fill the DP array
+        // Fill the DP values
         for (int i = 3; i < MAX; i++) {
-            dp[i] = Math.max(sums[i] + dp[i - 2], dp[i - 1]);
+            int current = Math.max(sums[i] + prev1, prev2);
+            prev1 = prev2; // Update prev1 to dp[i - 2]
+            prev2 = current; // Update prev2 to dp[i - 1]
         }
         
-        // Return the maximum value from the last two elements of DP
-        return Math.max(dp[MAX - 1], dp[MAX - 2]);
+        // Return the maximum value between the last two DP values
+        return prev2;
     }
 }
