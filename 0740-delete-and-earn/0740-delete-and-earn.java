@@ -1,43 +1,26 @@
-// Memorization
-
+// Tabulation
 public class Solution {
     public int deleteAndEarn(int[] nums) {
-        // Create a map to store the frequency of each number
-        Map<Integer, Integer> sums = new HashMap<>();
-        int maxNum = 0;
-
+        // Define the maximum value for array size
+        final int MAX = 10005;
+        int[] sums = new int[MAX];
+        
         // Calculate the total points for each value
         for (int num : nums) {
-            sums.put(num, sums.getOrDefault(num, 0) + num);
-            maxNum = Math.max(maxNum, num);
+            sums[num] += num;
         }
-
-        // Memoization map
-        Map<Integer, Integer> memo = new HashMap<>();
-        return dfs(maxNum, sums, memo);
-    }
-
-    // Recursive function with memoization
-    private int dfs(int num, Map<Integer, Integer> sums, Map<Integer, Integer> memo) {
-        if (num <= 0) return 0;
-
-        // Check memoization cache
-        if (memo.containsKey(num)) {
-            return memo.get(num);
+        
+        // Initialize the DP array
+        int[] dp = new int[MAX];
+        dp[1] = sums[1];
+        dp[2] = Math.max(sums[1], sums[2]);
+        
+        // Fill the DP array
+        for (int i = 3; i < MAX; i++) {
+            dp[i] = Math.max(sums[i] + dp[i - 2], dp[i - 1]);
         }
-
-        // Case 1: Skip current number
-        int skip = dfs(num - 1, sums, memo);
-
-        // Case 2: Take current number
-        int take = sums.getOrDefault(num, 0) + (num - 1 >= 0 ? dfs(num - 2, sums, memo) : 0);
-
-        // Get the maximum of taking or skipping the current number
-        int result = Math.max(skip, take);
-
-        // Store the result in the memoization map
-        memo.put(num, result);
-
-        return result;
+        
+        // Return the maximum value from the last two elements of DP
+        return Math.max(dp[MAX - 1], dp[MAX - 2]);
     }
 }
