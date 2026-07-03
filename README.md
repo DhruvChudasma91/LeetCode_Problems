@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0312-burst-balloons](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0312-burst-balloons/) | Hard |
 | [0338-counting-bits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0338-counting-bits/) | Easy |
+| [0343-integer-break](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0343-integer-break/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0583-delete-operation-for-two-strings/) | Medium |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/DhruvChudasma91/DSA/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/DhruvChudasma91/DSA/tree/master/0342-power-of-four) |
+| [0343-integer-break](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0343-integer-break/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [1013-fibonacci-number](https://github.com/DhruvChudasma91/DSA/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/DhruvChudasma91/DSA/tree/master/2050-count-good-numbers) |
