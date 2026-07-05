@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0010-regular-expression-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0010-regular-expression-matching/) | Hard |
 | [0044-wildcard-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0044-wildcard-matching/) | Hard |
 | [0203-remove-linked-list-elements](https://github.com/DhruvChudasma91/DSA/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/DhruvChudasma91/DSA/tree/master/0206-reverse-linked-list) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/DhruvChudasma91/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0010-regular-expression-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0010-regular-expression-matching/) | Hard |
 | [0020-valid-parentheses](https://github.com/DhruvChudasma91/DSA/tree/master/0020-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0072-edit-distance/) | Medium |
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0010-regular-expression-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0010-regular-expression-matching/) | Hard |
 | [0044-wildcard-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0044-wildcard-matching/) | Hard |
 | [0062-unique-paths](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0062-unique-paths/) | Medium |
 | [0072-edit-distance](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0072-edit-distance/) | Medium |
