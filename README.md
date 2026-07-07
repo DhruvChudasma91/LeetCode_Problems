@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/DhruvChudasma91/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0010-regular-expression-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0010-regular-expression-matching/) | Hard |
 | [0020-valid-parentheses](https://github.com/DhruvChudasma91/DSA/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0072-edit-distance/) | Medium |
 | [0087-scramble-string](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0087-scramble-string/) | Hard |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0010-regular-expression-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0010-regular-expression-matching/) | Hard |
+| [0022-generate-parentheses](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0044-wildcard-matching/) | Hard |
 | [0062-unique-paths](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0062-unique-paths/) | Medium |
 | [0072-edit-distance](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0072-edit-distance/) | Medium |
@@ -259,4 +261,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0062-unique-paths/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
