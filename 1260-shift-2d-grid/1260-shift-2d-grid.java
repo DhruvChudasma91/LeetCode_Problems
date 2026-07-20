@@ -3,58 +3,35 @@ class Solution {
 
         int m = grid.length;
         int n = grid[0].length;
+        int size = m * n;
+
+        k %= size;
 
         List<List<Integer>> ans = new ArrayList<>();
 
-        ArrayList<Integer> list = new ArrayList<>();
-
-        for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                list.add(grid[i][j]);
-            }
-        }
-
-        System.out.println(list);
-
-        k = k % list.size();
-
-        reverse(0, list.size()-1, list);
-        reverse(0, k-1, list);
-        reverse(k, list.size()-1, list);
-
-        System.out.println(list);
-
-        int ind = 0;
-        int count = 0;
-        while(ind < list.size()) {
+        for (int i = 0; i < m; i++) {
 
             List<Integer> row = new ArrayList<>();
-            while(count < n) {
-                count++;
-                row.add(list.get(ind));
-                ind++;
+
+            for (int j = 0; j < n; j++) {
+
+                // Current flattened index in result
+                int newIndex = i * n + j;
+
+                // Find corresponding old index
+                int oldIndex = (newIndex - k + size) % size;
+
+                // Convert flattened index back to grid coordinates
+                int oldRow = oldIndex / n;
+                int oldCol = oldIndex % n;
+
+                row.add(grid[oldRow][oldCol]);
             }
 
-            if(count >= n) {
-                count = 0;
-                ans.add(row);
-            }
-
-            
+            ans.add(row);
         }
 
         return ans;
-    }
-
-    public void reverse(int s, int e, ArrayList<Integer> list) {
-
-        while(s < e) {
-
-            int temp = list.get(s);
-            list.set(s, list.get(e));
-            list.set(e, temp);
-            s++;
-            e--;
-        }
+        
     }
 }
