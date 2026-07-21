@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
+| [3499-maximize-active-section-with-trade-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -278,4 +279,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3499-maximize-active-section-with-trade-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 <!---LeetCode Topics End-->
