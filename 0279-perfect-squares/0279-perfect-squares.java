@@ -15,7 +15,7 @@ class Solution {
         }
 
         for (int ind = 1; ind < len; ind++) {
-            for (int target = 0; target <= n; target++) {
+            for (int target = 1; target <= n; target++) {
 
                 int notPick = dp[ind - 1][target];
 
