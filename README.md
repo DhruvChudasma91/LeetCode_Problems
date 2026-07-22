@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0312-burst-balloons](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0312-burst-balloons/) | Hard |
+| [0322-coin-change](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0322-coin-change/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/DhruvChudasma91/DSA/tree/master/0643-maximum-average-subarray-i) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0312-burst-balloons](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0312-burst-balloons/) | Hard |
+| [0322-coin-change](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0322-coin-change/) | Medium |
 | [0338-counting-bits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0338-counting-bits/) | Easy |
 | [0343-integer-break](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0343-integer-break/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
@@ -217,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
 | [0279-perfect-squares](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0279-perfect-squares/) | Medium |
+| [0322-coin-change](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0322-coin-change/) | Medium |
 | [0547-number-of-provinces](https://github.com/DhruvChudasma91/DSA/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
