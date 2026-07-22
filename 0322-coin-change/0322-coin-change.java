@@ -4,37 +4,55 @@ class Solution {
         int n = coins.length;
 
         int[][] dp = new int[n][amount+1];
-        for(int[] d : dp){
-            Arrays.fill(d, -1);
-        }
-
-        int ans = helper(n-1, amount, coins, dp);
-
-        return ans >= 1e9 ? -1 : ans;
-    }
-
-    public static int helper(int ind, int x, int[] arr, int[][] dp) {
-
-        if(x == 0) return 0;
-
-        if(ind == 0) {
-
-            if(x % arr[0] == 0) {
-                return x/arr[0];
+        
+        for(int i = 0; i <= amount; i++) {
+            if(i % coins[0] == 0) {
+                dp[0][i] = i / coins[0];
             } else {
-                return (int)1e9;
+                dp[0][i] = (int)1e9;
             }
         }
 
-        if(dp[ind][x] != -1) return dp[ind][x];
+        for(int ind = 1; ind < n; ind++) {
+            for(int target = 1; target <= amount; target++) {
 
-        int notPick = helper(ind-1, x, arr, dp);
-        int pick = (int)1e9;
+                int notPick = dp[ind - 1][target];
+                int pick = (int)1e9;
 
-        if(x >= arr[ind]){
-            pick = 1 + helper(ind, x - arr[ind], arr, dp);
+                if(target >= coins[ind]) {
+                    pick = 1 + dp[ind][target - coins[ind]];
+                }
+
+                dp[ind][target] = Math.min(notPick, pick);
+            }
         }
 
-        return dp[ind][x] = Math.min(notPick, pick);
+        int ans = (dp[n-1][amount] == (int)1e9)? -1 : dp[n-1][amount];
+        return ans;
     }
+
+    // public static int helper(int ind, int x, int[] arr, int[][] dp) {
+
+    //     if(x == 0) return 0;
+
+    //     if(ind == 0) {
+
+    //         if(x % arr[0] == 0) {
+    //             return x/arr[0];
+    //         } else {
+    //             return (int)1e9;
+    //         }
+    //     }
+
+    //     if(dp[ind][x] != -1) return dp[ind][x];
+
+    //     int notPick = helper(ind-1, x, arr, dp);
+    //     int pick = (int)1e9;
+
+    //     if(x >= arr[ind]){
+    //         pick = 1 + helper(ind, x - arr[ind], arr, dp);
+    //     }
+
+    //     return dp[ind][x] = Math.min(notPick, pick);
+    // }
 }
