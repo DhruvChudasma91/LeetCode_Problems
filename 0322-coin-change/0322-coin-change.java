@@ -3,31 +3,35 @@ class Solution {
         
         int n = coins.length;
 
-        int[][] dp = new int[n][amount+1];
+        int[] prev = new int[amount+1];
         
         for(int i = 0; i <= amount; i++) {
             if(i % coins[0] == 0) {
-                dp[0][i] = i / coins[0];
+                prev[i] = i / coins[0];
             } else {
-                dp[0][i] = (int)1e9;
+                prev[i] = (int)1e9;
             }
         }
 
         for(int ind = 1; ind < n; ind++) {
+
+            int[] curr = new int[amount+1];
             for(int target = 1; target <= amount; target++) {
 
-                int notPick = dp[ind - 1][target];
+                int notPick = prev[target];
                 int pick = (int)1e9;
 
                 if(target >= coins[ind]) {
-                    pick = 1 + dp[ind][target - coins[ind]];
+                    pick = 1 + curr[target - coins[ind]];
                 }
 
-                dp[ind][target] = Math.min(notPick, pick);
+                curr[target] = Math.min(notPick, pick);
             }
+
+            prev = curr.clone();
         }
 
-        int ans = (dp[n-1][amount] == (int)1e9)? -1 : dp[n-1][amount];
+        int ans = (prev[amount] == (int)1e9)? -1 : prev[amount];
         return ans;
     }
 
