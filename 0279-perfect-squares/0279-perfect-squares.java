@@ -4,31 +4,35 @@ class Solution {
         ArrayList<Integer> list = findPerSqrt(n);
         int len = list.size();
 
-        int[][] dp = new int[len][n+1];
+        int[] prev = new int[n+1];
         
         for (int target = 0; target <= n; target++) {
             if (target % list.get(0) == 0) {
-                dp[0][target] = target / list.get(0);
+                prev[target] = target / list.get(0);
             } else {
-                dp[0][target] = (int) 1e9;
+                prev[target] = (int) 1e9;
             }
         }
 
         for (int ind = 1; ind < len; ind++) {
+
+            int[] curr = new int[n+1];
             for (int target = 1; target <= n; target++) {
 
-                int notPick = dp[ind - 1][target];
+                int notPick = prev[target];
 
                 int pick = (int) 1e9;
                 if (target >= list.get(ind)) {
-                    pick = 1 + dp[ind][target - list.get(ind)];
+                    pick = 1 + curr[target - list.get(ind)];
                 }
 
-                dp[ind][target] = Math.min(notPick, pick);
+                curr[target] = Math.min(notPick, pick);
             }
+
+            prev = curr.clone();
         }
 
-        return dp[len-1][n];
+        return prev[n];
     }
 
     public ArrayList<Integer> findPerSqrt(int n) {
