@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0198-house-robber](https://github.com/DhruvChudasma91/DSA/tree/master/0198-house-robber) |
+| [0279-perfect-squares](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0279-perfect-squares/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0312-burst-balloons](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0312-burst-balloons/) | Hard |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0062-unique-paths/) | Medium |
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
+| [0279-perfect-squares](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0279-perfect-squares/) | Medium |
 | [0326-power-of-three](https://github.com/DhruvChudasma91/DSA/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/DhruvChudasma91/DSA/tree/master/0342-power-of-four) |
 | [0343-integer-break](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0343-integer-break/) | Medium |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
+| [0279-perfect-squares](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0279-perfect-squares/) | Medium |
 | [0547-number-of-provinces](https://github.com/DhruvChudasma91/DSA/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
