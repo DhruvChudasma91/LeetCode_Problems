@@ -6,6 +6,44 @@ class Solution {
 
         if(s.charAt(0) == '0') return 0;
 
+        long prev2 = 1;
+        long prev1 = waysSingle(s.charAt(0));
+
+        for(int i = 1; i < n; i++) {
+
+            long ans = 0;
+
+            long single = waysSingle(s.charAt(i));
+            ans = (ans + single * prev1) % MOD;
+
+            int dual = waysDouble(s.charAt(i-1), s.charAt(i));
+
+            if(dual > 0) {
+
+                if(i == 1) {
+                    ans = (ans + dual) % MOD;
+                } else {
+                    ans = (ans + dual * prev2) % MOD;
+                }
+            }
+
+            long curr = ans;
+            prev2 = prev1;
+            prev1 = curr;
+        }
+
+        return (int) prev1;
+    }
+
+    /* Tebulation
+
+    public int numDecodings(String s) {
+
+        int n = s.length();
+        int MOD = 1000000007;
+
+        if(s.charAt(0) == '0') return 0;
+
         long[] dp = new long[n];
         dp[0] = waysSingle(s.charAt(0));
 
@@ -33,7 +71,9 @@ class Solution {
         return (int) dp[n-1];
     }
 
-    /*
+    */
+
+    /* Memoization
 
     public int helpar(int ind, String s, int MOD, int[] dp) {
 
