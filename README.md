@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/DhruvChudasma91/DSA/tree/master/1013-fibonacci-number) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2050-count-good-numbers](https://github.com/DhruvChudasma91/DSA/tree/master/2050-count-good-numbers) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DhruvChudasma91/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0338-counting-bits/) | Easy |
 | [0342-power-of-four](https://github.com/DhruvChudasma91/DSA/tree/master/0342-power-of-four) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DhruvChudasma91/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Memoization
 | Problem Name | Difficulty |
