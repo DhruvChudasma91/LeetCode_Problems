@@ -18,72 +18,63 @@ class Solution {
 
         if(dp[ind] != -1) return dp[ind];
 
-        int single = 0;
+        int ans = 0;
 
-        if(s.charAt(ind) != '0') {
+        int single = waysSingle(s.charAt(ind));
 
-            if(s.charAt(ind) == '*') {
+        ans = (int)((ans + (long)single * helpar(ind - 1, s, MOD, dp)) % MOD);
 
-                for(int i = 1; i <= 9; i++) {
-                    single = (single + helpar(ind - 1, s, MOD, dp)) % MOD;
-                }
-            } else {
-                single = helpar(ind - 1, s, MOD, dp);
-            }
-        } 
-
-        int dual = 0;
         if(ind >= 1) {
 
-            if(s.charAt(ind) == '*') {
+            int dual = waysDouble(s.charAt(ind-1), s.charAt(ind));
 
-                for(int i = 1; i <= 9; i++) {
-
-                    if(s.charAt(ind - 1) != '*') {
-                        int num = (s.charAt(ind - 1) - '0') * 10 + i;
-
-                        if(num >= 10 && num <= 26) {
-                            dual = (dual + helpar(ind - 2, s, MOD, dp)) % MOD;
-                        }
-                    } else {
-
-                        for(int j = 1; j <= 9; j++) {
-
-                            int num = j * 10 + i;
-
-                            if(num >= 10 && num <= 26) {
-                                dual = (dual + helpar(ind - 2, s, MOD, dp)) % MOD;
-                            }
-                        }
-                    }
-                }
-
-            } else {
-
-                if(s.charAt(ind - 1) == '*') {
-
-                    for(int k = 1; k <= 9; k++) {
-
-                        int num = k * 10 + (s.charAt(ind) - '0');
-
-                        if(num >= 10 && num <= 26) {
-                            dual = (dual + helpar(ind - 2, s, MOD, dp)) % MOD;
-                        }
-                    } 
-                } 
-
-                else {
-                    int num = (s.charAt(ind - 1) - '0') * 10 + (s.charAt(ind) - '0');
-
-                    if(num >= 10 && num <= 26) {
-                        dual = helpar(ind - 2, s, MOD, dp);
-                    }
-                }
-            }
+            ans = (int)((ans + (long)dual * helpar(ind - 2, s, MOD, dp)) % MOD);
         }
 
-        dp[ind] = (single + dual) % MOD;
+        return dp[ind] = ans % MOD;
+    }
 
-        return (single + dual) % MOD;
+    public int waysSingle(char ch) {
+
+        if (ch == '0')
+            return 0;
+
+        if (ch == '*')
+            return 9;
+
+        return 1;
+    }
+
+    public int waysDouble(char first, char second) {
+
+        if (first == '*' && second == '*') {
+            return 15;
+        }
+
+        // *x
+        if (first == '*') {
+
+            if (second >= '0' && second <= '6')
+                return 2;      // 10-16 or 20-26
+
+            return 1;          // 17-19
+        }
+
+        // x*
+        if (second == '*') {
+
+            if (first == '1')
+                return 9;      // 11-19
+
+            if (first == '2')
+                return 6;      // 21-26
+
+            return 0;
+        }
+
+        // Normal digits
+        int num = (first - '0') * 10 + (second - '0');
+
+        return (num >= 10 && num <= 26) ? 1 : 0;
     }
 }
