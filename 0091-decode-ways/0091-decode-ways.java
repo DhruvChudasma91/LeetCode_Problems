@@ -3,12 +3,43 @@ class Solution {
 
         int n = s.length();
 
-        int[] dp = new int[n];
-        Arrays.fill(dp, -1);
+        if (s.charAt(0) == '0')
+            return 0;
 
-        return helpar(n - 1, s, dp);
+        int prev2 = 1;
+        int prev1 = 1;
+
+
+        for(int ind = 1; ind < n; ind++) {
+
+            int single = 0;
+
+            if(s.charAt(ind) != '0') {
+                single = prev1;
+            }
+
+            int dual = 0;
+            int num = (s.charAt(ind - 1) - '0') * 10 + (s.charAt(ind) - '0');
+
+            if (num >= 10 && num <= 26) {
+
+                if (ind == 1) {
+                    dual = 1;
+                } else {
+                    dual = prev2;
+                }
+            }
+
+            int curr = single + dual;
+            prev2 = prev1;
+            prev1 = curr;
+        }
+
+        return prev1;
         
     }
+
+    /*
 
     public int helpar(int ind, String s, int[] dp) {
 
@@ -39,4 +70,6 @@ class Solution {
 
         return single + dual;
     }
+
+    */
 }
