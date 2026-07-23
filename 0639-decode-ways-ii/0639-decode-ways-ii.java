@@ -4,11 +4,36 @@ class Solution {
         int n = s.length();
         int MOD = 1000000007;
 
-        int[] dp = new int[n];
-        Arrays.fill(dp, -1);
+        if(s.charAt(0) == '0') return 0;
 
-        return helpar(n-1, s, MOD, dp);
+        long[] dp = new long[n];
+        dp[0] = waysSingle(s.charAt(0));
+
+        for(int i = 1; i < n; i++) {
+
+            long ans = 0;
+
+            long single = waysSingle(s.charAt(i));
+            ans = (ans + single * dp[i - 1]) % MOD;
+
+            int dual = waysDouble(s.charAt(i-1), s.charAt(i));
+
+            if(dual > 0) {
+
+                if(i == 1) {
+                    ans = (ans + dual) % MOD;
+                } else {
+                    ans = (ans + dual * dp[i-2]) % MOD;
+                }
+            }
+
+            dp[i] = ans;
+        }
+
+        return (int) dp[n-1];
     }
+
+    /*
 
     public int helpar(int ind, String s, int MOD, int[] dp) {
 
@@ -33,6 +58,8 @@ class Solution {
 
         return dp[ind] = ans % MOD;
     }
+
+    */
 
     public int waysSingle(char ch) {
 
