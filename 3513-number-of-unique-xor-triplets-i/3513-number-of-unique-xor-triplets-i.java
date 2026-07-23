@@ -7,9 +7,17 @@ class Solution {
             return n;
         }
 
-        int bits = 32 - Integer.numberOfLeadingZeros(n);
+        
+        int temp = n;
+        int countBits = 0;
+        while(temp > 0) {
+            temp = temp >> 1;
+            countBits++;
+        }
 
-        return 1 << bits;
+        int ans = (int) Math.pow(2, countBits);
+
+        return ans;
         
     }
 }
