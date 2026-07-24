@@ -3,26 +3,34 @@ class Solution {
         
         int n = nums.length;
 
-        if(n <= 1) return n;
+        if(n == 1) return 1;
 
-        HashSet<Integer> xors = new HashSet<>();
+        boolean[] pairXor = new boolean[2048];
+        boolean[] answer = new boolean[2048];
 
-        for(int i = 0; i < n; i++) {
-            for(int j = i + 1; j < n; j++) {
-
-                int xor = nums[i] ^ nums[j];
-                xors.add(xor);
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                pairXor[nums[i] ^ nums[j]] = true;
             }
         }
 
-        HashSet<Integer> set = new HashSet<>();
+        // XOR every pair XOR with every number
+        for (int xor = 0; xor < 2048; xor++) {
 
-        for(int xor : xors) {
-            for(int i : nums) {
-                set.add(xor ^ i);
+            if (!pairXor[xor]) continue;
+
+            for (int num : nums) {
+                answer[xor ^ num] = true;
             }
         }
 
-        return set.size();
+        // Count distinct XOR values
+        int count = 0;
+
+        for (boolean present : answer) {
+            if (present) count++;
+        }
+
+        return count;
     }
 }
