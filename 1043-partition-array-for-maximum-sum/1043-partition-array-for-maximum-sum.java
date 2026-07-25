@@ -3,55 +3,34 @@ class Solution {
         
         int n = arr.length;
 
-        int[] dp = new int[n+1];
-        
-        for(int first = n - 1; first >= 0; first--) {
+        int[] dp = new int[n];
+        Arrays.fill(dp, -1);
 
-            int maxSum = Integer.MIN_VALUE;
-            int maxNum = Integer.MIN_VALUE;
-            int len = 0;
-
-            for(int last = first; last < Math.min(first + k, n); last++) {
-
-                len++;
-                maxNum = Math.max(maxNum, arr[last]);
-
-                int sum = (len * maxNum) + dp[last + 1];
-
-                maxSum = Math.max(sum, maxSum);
-            }
-
-            dp[first] = maxSum;
-
-        }
-
-        return dp[0];
+        return helpar(0, n, arr, k, dp);
     }
 
-    /*
+    public int helpar(int first, int n, int[] arr, int k, int[] dp) {
 
-    public int helpar(int first, int n, int k, int[] arr, int[] dp) {
-
-        if(first == n) return 0;
+        if(first == n) {
+            return 0;
+        }
 
         if(dp[first] != -1) return dp[first];
 
-        int maxSum = Integer.MIN_VALUE;
         int maxNum = Integer.MIN_VALUE;
-        int len = 0;
+        int maxSum = Integer.MIN_VALUE;
 
-        for(int last = first; last < Math.min(first + k, n); last++) {
+        for(int last = first; last < Math.min(n, first + k); last++) {
 
-            len++;
+            int len = (last - first) + 1;
+
             maxNum = Math.max(maxNum, arr[last]);
 
-            int sum = (len * maxNum) + helpar(last + 1, n, k, arr, dp);
+            int sum = (maxNum * len) + helpar(last + 1, n, arr, k, dp);
 
             maxSum = Math.max(sum, maxSum);
         }
 
         return dp[first] = maxSum;
     }
-
-    */
 }
