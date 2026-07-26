@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0322-coin-change/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
+| [0628-maximum-product-of-three-numbers](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/DhruvChudasma91/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0682-baseball-game](https://github.com/DhruvChudasma91/DSA/tree/master/0682-baseball-game) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/DhruvChudasma91/DSA/tree/master/0342-power-of-four) |
 | [0343-integer-break](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0343-integer-break/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1013-fibonacci-number](https://github.com/DhruvChudasma91/DSA/tree/master/1013-fibonacci-number) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2050-count-good-numbers](https://github.com/DhruvChudasma91/DSA/tree/master/2050-count-good-numbers) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
+| [0628-maximum-product-of-three-numbers](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
