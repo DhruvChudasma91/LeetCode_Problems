@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [3499-maximize-active-section-with-trade-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
@@ -310,4 +312,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [3499-maximize-active-section-with-trade-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 <!---LeetCode Topics End-->
