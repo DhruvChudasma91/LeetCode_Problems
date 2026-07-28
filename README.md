@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
+| [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2369-check-if-there-is-a-valid-partition-for-the-array/) | Medium |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1277-count-square-submatrices-with-all-ones](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
+| [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2369-check-if-there-is-a-valid-partition-for-the-array/) | Medium |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
