@@ -1,9 +1,46 @@
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
+        //Space Optimization
+        int n = matrix.length;
 
-        return tebulation(matrix);
+        int[] next = new int[n];
+
+        for(int i = 0; i < n; i++) {
+            next[i] = matrix[n-1][i];
+        }
+
+        for(int row = n-2; row >= 0; row--) {
+
+            int[] curr = new int[n];
+            for(int col = 0; col < n; col++) {
+
+                    int below = next[col];
+                    int lDiago = (int)1e9;
+                    int rDiago = (int)1e9;
+
+                    if(col > 0) {
+                        lDiago = next[col-1];
+                    }
+
+                    if(col < n -1) {
+                        rDiago = next[col+1];
+                    }
+
+                    curr[col] = matrix[row][col] + Math.min(below, Math.min(lDiago, rDiago));
+            }
+
+            next = curr.clone();
+        }
+
+        int ans = (int)1e9;
+        for(int i = 0; i < n; i++) {
+            ans = Math.min(ans, next[i]);
+        }
+
+        return ans;
     }
 
+    /*
     public int tebulation(int[][] matrix) {
 
         int n = matrix.length;
