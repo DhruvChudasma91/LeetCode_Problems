@@ -5,12 +5,33 @@ class Solution {
         int m = grid[0].length;
 
         int[][] dp = new int[n][m];
-        for(int [] d : dp){
-            Arrays.fill(d, -1);
-        }
 
-        return helper(n-1, m-1, grid, dp);
+        dp[0][0] = grid[0][0];
+
+        for(int row = 0; row < n; row++) {
+            for(int col = 0; col < m; col++) {
+
+                if(row == 0 && col == 0) continue;
+
+                int left = (int)1e9;
+                int up = (int)1e9;
+
+                if(col > 0) {
+                    left = grid[row][col] + dp[row][col-1];
+                }
+
+                if(row > 0) {
+                    up = grid[row][col] + dp[row-1][col];
+                }
+
+                dp[row][col] = Math.min(left, up);
+            }
+        }
+        
+        return dp[n-1][m-1];
     }
+
+    /*
 
     public int helper(int row, int col, int[][] grid, int[][] dp) {
 
@@ -31,4 +52,6 @@ class Solution {
 
         return dp[row][col] = Math.min(left, up);
     }
+
+    */
 }
