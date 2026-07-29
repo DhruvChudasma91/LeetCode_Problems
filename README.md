@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0064-minimum-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0085-maximal-rectangle](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0085-maximal-rectangle/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0044-wildcard-matching/) | Hard |
 | [0062-unique-paths](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0062-unique-paths/) | Medium |
+| [0064-minimum-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0072-edit-distance](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0072-edit-distance/) | Medium |
 | [0085-maximal-rectangle](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0085-maximal-rectangle/) | Hard |
 | [0087-scramble-string](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0087-scramble-string/) | Hard |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0064-minimum-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0085-maximal-rectangle](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0085-maximal-rectangle/) | Hard |
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
