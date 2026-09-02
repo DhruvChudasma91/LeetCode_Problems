@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/DhruvChudasma91/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0001-two-sum/) | Easy |
 | [0064-minimum-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0085-maximal-rectangle](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0085-maximal-rectangle/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
