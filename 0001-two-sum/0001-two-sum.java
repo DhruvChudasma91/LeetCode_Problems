@@ -12,7 +12,7 @@ class Solution {
             if(map.containsKey(req)) {
                 ans[0] = i;
                 ans[1] = map.get(req);
-                break;
+                return ans;
             }
 
             map.put(nums[i], i);
