@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0283-move-zeroes](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0283-move-zeroes/) | Easy |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/DhruvChudasma91/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0198-house-robber](https://github.com/DhruvChudasma91/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
+| [0283-move-zeroes](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0283-move-zeroes/) | Easy |
 | [0300-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0312-burst-balloons](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0312-burst-balloons/) | Hard |
