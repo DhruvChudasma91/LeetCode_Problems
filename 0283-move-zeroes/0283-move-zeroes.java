@@ -3,17 +3,19 @@ class Solution {
         
         int n = nums.length;
 
-        int l = -1;
+        int l = 0;
 
-        for(int i = 0; i < n; i++) {
+        while(l < n && nums[l] != 0) {
+            l++;
+        }
 
+        if(l == n - 1) return;
+
+        for(int i = l + 1; i < n; i++) {
             if(nums[i] != 0) {
+                nums[l] = nums[i];
+                nums[i] = 0;
                 l++;
-
-                if(nums[l] == 0) {
-                    nums[l] = nums[i];
-                    nums[i] = 0;
-                }
             }
         }
     }
