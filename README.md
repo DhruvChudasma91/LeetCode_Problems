@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0682-baseball-game](https://github.com/DhruvChudasma91/DSA/tree/master/0682-baseball-game) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
+| [0724-find-pivot-index](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0724-find-pivot-index/) | Easy |
 | [0733-flood-fill](https://github.com/DhruvChudasma91/DSA/tree/master/0733-flood-fill) |
 | [0740-delete-and-earn](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0740-delete-and-earn/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0746-min-cost-climbing-stairs/) | Easy |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0724-find-pivot-index](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0724-find-pivot-index/) | Easy |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1480-running-sum-of-1d-array/) | Easy |
 ## Greedy
