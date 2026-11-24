@@ -2,22 +2,23 @@ class Solution {
     public int majorityElement(int[] nums) {
         
         int n = nums.length;
-        Map<Integer, Integer> freq = new HashMap<>();
+        
+        int maxi = 0;
+        int count = 0;
 
         for(int num : nums) {
-            freq.put(num, freq.getOrDefault(num, 0) + 1);
-        }
 
-        int ans = 0;
-        int maxFreq = Integer.MIN_VALUE;
-        for(Map.Entry<Integer, Integer> entry : freq.entrySet()) {
+            if(count == 0) {
+                maxi = num;
+            }
 
-            if(maxFreq <= entry.getValue()) {
-                maxFreq = entry.getValue();
-                ans = entry.getKey();
+            if(maxi == num) {
+                count++;
+            } else {
+                count--;
             }
         }
 
-        return ans;
+        return maxi;
     }
 }
