@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0283-move-zeroes](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0283-move-zeroes/) | Easy |
+| [0977-squares-of-a-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/DhruvChudasma91/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0740-delete-and-earn/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0931-minimum-falling-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0931-minimum-falling-path-sum/) | Medium |
+| [0977-squares-of-a-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1036-rotting-oranges](https://github.com/DhruvChudasma91/DSA/tree/master/1036-rotting-oranges) |
 | [1043-partition-array-for-maximum-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0977-squares-of-a-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
