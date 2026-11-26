@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0312-burst-balloons](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0312-burst-balloons/) | Hard |
 | [0322-coin-change](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0322-coin-change/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
+| [0485-max-consecutive-ones](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/DhruvChudasma91/DSA/tree/master/0643-maximum-average-subarray-i) |
