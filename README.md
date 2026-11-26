@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0189-rotate-array/) | Medium |
 | [0283-move-zeroes](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0283-move-zeroes/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0169-majority-element](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0169-majority-element/) | Easy |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
+| [0189-rotate-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0189-rotate-array/) | Medium |
 | [0198-house-robber](https://github.com/DhruvChudasma91/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0283-move-zeroes/) | Easy |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0062-unique-paths/) | Medium |
 | [0066-plus-one](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0066-plus-one/) | Easy |
+| [0189-rotate-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0189-rotate-array/) | Medium |
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0279-perfect-squares/) | Medium |
 | [0326-power-of-three](https://github.com/DhruvChudasma91/DSA/tree/master/0326-power-of-three) |
