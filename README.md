@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [0136-single-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0136-single-number/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0169-majority-element](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0169-majority-element/) | Easy |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0136-single-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0136-single-number/) | Easy |
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0338-counting-bits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0338-counting-bits/) | Easy |
