@@ -8,11 +8,14 @@ class Solution {
 
         for(int num : nums) {
 
-            if(num == 1) count++;
-
-            else count = 0;
-
-            max = Math.max(max, count);
+            if(num == 1) {
+                count++;
+                if(count > max) {
+                    max = count;
+                }
+            } else {
+                count = 0;
+            }
         }
         
         return max;
