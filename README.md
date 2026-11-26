@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0169-majority-element/) | Easy |
+| [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0740-delete-and-earn](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0740-delete-and-earn/) | Medium |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0189-rotate-array/) | Medium |
 | [0198-house-robber](https://github.com/DhruvChudasma91/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/DhruvChudasma91/DSA/tree/master/0200-number-of-islands) |
+| [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0283-move-zeroes](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0283-move-zeroes/) | Easy |
 | [0300-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0066-plus-one/) | Easy |
 | [0189-rotate-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0189-rotate-array/) | Medium |
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0279-perfect-squares](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0279-perfect-squares/) | Medium |
 | [0326-power-of-three](https://github.com/DhruvChudasma91/DSA/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/DhruvChudasma91/DSA/tree/master/0342-power-of-four) |
@@ -233,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/DhruvChudasma91/DSA/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0338-counting-bits](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0338-counting-bits/) | Easy |
 | [0342-power-of-four](https://github.com/DhruvChudasma91/DSA/tree/master/0342-power-of-four) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
@@ -248,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0056-merge-intervals/) | Medium |
 | [0169-majority-element](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0169-majority-element/) | Easy |
+| [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
@@ -320,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0300-longest-increasing-subsequence](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0300-longest-increasing-subsequence/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
