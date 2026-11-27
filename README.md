@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0169-majority-element/) | Easy |
 | [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
+| [0560-subarray-sum-equals-k](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0740-delete-and-earn](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0740-delete-and-earn/) | Medium |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0322-coin-change/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0485-max-consecutive-ones/) | Easy |
+| [0560-subarray-sum-equals-k](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0594-longest-harmonious-subsequence](https://github.com/DhruvChudasma91/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/DhruvChudasma91/DSA/tree/master/0643-maximum-average-subarray-i) |
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0724-find-pivot-index/) | Easy |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1480-running-sum-of-1d-array/) | Easy |
