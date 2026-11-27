@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0075-sort-colors](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0075-sort-colors/) | Medium |
 | [0141-linked-list-cycle](https://github.com/DhruvChudasma91/DSA/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DhruvChudasma91/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0189-rotate-array/) | Medium |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0056-merge-intervals/) | Medium |
 | [0064-minimum-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0066-plus-one/) | Easy |
+| [0075-sort-colors](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0075-sort-colors/) | Medium |
 | [0085-maximal-rectangle](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0085-maximal-rectangle/) | Hard |
 | [0118-pascals-triangle](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0056-merge-intervals/) | Medium |
+| [0075-sort-colors](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0169-majority-element/) | Easy |
 | [0268-missing-number](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0268-missing-number/) | Easy |
 | [0368-largest-divisible-subset](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0368-largest-divisible-subset/) | Medium |
@@ -383,4 +386,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0056-merge-intervals/) | Medium |
+| [0075-sort-colors](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0075-sort-colors/) | Medium |
+## Bubble Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0075-sort-colors](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0075-sort-colors/) | Medium |
 <!---LeetCode Topics End-->
