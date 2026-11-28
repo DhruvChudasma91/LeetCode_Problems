@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0283-move-zeroes/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1048-longest-string-chain](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1048-longest-string-chain/) | Medium |
+| [2149-rearrange-array-elements-by-sign](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/DhruvChudasma91/DSA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 | Problem Name | Difficulty |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2016-maximum-difference-between-increasing-elements/) | Easy |
+| [2149-rearrange-array-elements-by-sign](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2369-check-if-there-is-a-valid-partition-for-the-array/) | Medium |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/DhruvChudasma91/DSA/tree/master/0682-baseball-game) |
 | [1094-car-pooling](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1094-car-pooling/) | Medium |
 | [1260-shift-2d-grid](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/1260-shift-2d-grid/) | Easy |
+| [2149-rearrange-array-elements-by-sign](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DhruvChudasma91/DSA/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Dynamic Programming
 | Problem Name | Difficulty |
