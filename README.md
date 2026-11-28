@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0001-two-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0001-two-sum/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0053-maximum-subarray](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0053-maximum-subarray/) | Medium |
 | [0056-merge-intervals](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0056-merge-intervals/) | Medium |
 | [0064-minimum-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0066-plus-one](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0066-plus-one/) | Easy |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0010-regular-expression-matching/) | Hard |
 | [0022-generate-parentheses](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0022-generate-parentheses/) | Medium |
 | [0044-wildcard-matching](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0044-wildcard-matching/) | Hard |
+| [0053-maximum-subarray](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0053-maximum-subarray/) | Medium |
 | [0062-unique-paths](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0062-unique-paths/) | Medium |
 | [0064-minimum-path-sum](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0072-edit-distance](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0072-edit-distance/) | Medium |
@@ -377,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0053-maximum-subarray/) | Medium |
 | [0169-majority-element](https://github.com/DhruvChudasma91/LeetCode_Problems/tree/main/0169-majority-element/) | Easy |
 ## Boyer–Moore Majority Vote Algorithm
 | Problem Name | Difficulty |
