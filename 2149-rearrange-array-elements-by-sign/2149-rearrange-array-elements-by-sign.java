@@ -3,12 +3,12 @@ class Solution {
 
         int len = nums.length;
 
-        int[] ans = new int[len];
+        int[] ans = new int[len];  // O(1)
 
         int p = 0;
         int n = 1;
 
-        for(int i = 0; i < len; i++) {
+        for(int i = 0; i < len; i++) {   //O(N)
 
             if(nums[i] > 0) {
                 ans[p] = nums[i];
